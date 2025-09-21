@@ -1,0 +1,10 @@
+- Build a page with:
+  - A **form** to add a new note (`title`, optional `body`) → calls `POST`, then refreshes the list.
+  - A **search input** bound to `q` → calls `GET /notes?q=...` and updates the list.
+  - A **list** of notes showing:
+    - `title`
+    - `createdAt` (human-readable date).
+- Handle states:
+  - Show a message if there are **no notes**.
+  - Show an **error message** if creating a note fails validation.
+- Use **RTK Query** for data fetching and mutations.
