@@ -5,7 +5,6 @@ function App() {
   return (
     <>
       <Route path="/" element={"Root"} />
-      <Route path="/hello" element={"Hello"} />
       <Route path="/health-check" element={<HealthCheck />} />
     </>
   )
